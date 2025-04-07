@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simple Landing Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #4f46e5;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+    }
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+    .cta-button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      background: white;
+      color: #4f46e5;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .cta-button:hover {
+      background: #e0e7ff;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .feature-item {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .feature-item img {
+      width: 100%;
+      border-radius: 8px;
+      height: 150px;
+      object-fit: cover;
+    }
+    .feature-item h3 {
+      margin-top: 15px;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Page</h1>
+    <p>Your solution starts here.</p>
+    <a href="#features" class="cta-button">Get Started</a>
+  </header>
+
+  <section id="features">
+    <h2>What We Offer</h2>
+    <div class="features">
+      <div class="feature-item">
+        <img src="images/mountain.jpg" alt="Fast Performance">
+        <h3>Fast Performance</h3>
+        <p>Lightning-fast load times to boost user engagement and retention.</p>
+      </div>
+      <div class="feature-item">
+        <img src="images/guitar.jpg" alt="Clean Design">
+        <h3>Clean Design</h3>
+        <p>Modern, minimal design that’s easy to navigate and looks great on any device.</p>
+      </div>
+      <div class="feature-item">
+        <img src="images/trees.jpg" alt="Responsive Layout">
+        <h3>Responsive Layout</h3>
+        <p>Seamless experience across mobile, tablet, and desktop devices.</p>
+      </div>
+      <div class="feature-item">
+        <img src="images/building.jpg" alt="Easy Integration">
+        <h3>Easy Integration</h3>
+        <p>Connect with your favorite tools and platforms with minimal effort.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 My Landing Page. All rights reserved.
+  </footer>
+
+</body>
+</html>
