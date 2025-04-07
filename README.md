@@ -1,6 +1,8 @@
 
 # 🚀 Docker + NGINX Load Balancer Setup
 
+![NGINX Docker Architecture](assets/A_diagram_illustrates_how_NGINX_is_used_in_a_Docke.png)
+
 This project demonstrates how to containerize a Node.js application using Docker, scale it using Docker Compose, and load balance traffic using NGINX. Static files are served directly from NGINX for performance.
 
 ---
